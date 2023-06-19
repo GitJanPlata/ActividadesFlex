@@ -1,0 +1,114 @@
+footer a ,header a{
+    text-decoration: none;
+    color: black;
+}
+
+#header-container{
+margin: 2%;
+display: flex;
+justify-content: space-between;
+}
+.box-image{
+    width: 2vw;
+    height: auto;
+}
+
+#header-derecha, #header-izquierda{
+    display: flex;
+    align-items: center;
+}
+.box, .box-image{
+    margin: 10px;
+}
+#center-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centerimg{
+    width: 40vw;
+    height: auto;
+}
+.formulario{
+    margin-top: 20px;
+    width: 30vw;
+    border:1px solid #ccc; 
+    border-radius: 25px; 
+    padding: 15px;
+    padding-right: 30px; 
+    padding-left: 30px;
+}
+
+.input-wrapper {
+    position: relative;
+}
+.input-icon-l {
+    position: absolute;
+    left: 10px; /* La distancia desde el borde izquierdo del input */
+    top: 65%; /* Centra el ícono verticalmente */
+    transform: translateY(-50%); /* Centra el ícono verticalmente */
+}
+.input-icon-r {
+    position: absolute;
+    right: 15px; /* La distancia desde el borde derecho del input */
+    top: 65%; /* Centra el ícono verticalmente */
+    transform: translateY(-50%); /* Centra el ícono verticalmente */
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.buttons button:hover{
+    background-color: rgb(160, 159, 159);
+}
+.buttons button {
+width: 10vw;
+margin-top: 1.5vw;
+margin-right:1%;
+margin-left:1%;
+background-color: rgb(236, 236, 236);
+border: 1px #ccc; 
+border-radius: 5px; 
+padding: 8px;
+}
+.idiomas{
+    margin-top: 2vw;
+    margin-bottom: 17vh;
+}
+.idiomas a{
+    text-decoration: none;
+}
+#footer-head {
+    border-bottom: gray solid 1px;
+    padding: 2vh;
+}
+
+#footer-content a {
+margin-right: 2vw;
+}
+
+#footer-content {
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-hero{
+    background-color: rgb(241, 241, 241);
+    margin: 2vh;
+}
+
+
